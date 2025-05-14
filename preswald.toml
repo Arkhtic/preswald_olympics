@@ -1,0 +1,20 @@
+[project]
+title = "Olympics Dashboard"
+version = "0.1.0"
+port = 8501
+slug = "olympics-dash"
+entrypoint = "hello.py"
+
+[branding]
+name = "Olympics"
+primaryColor = "#0085C7"
+logo = "images/Olympic_rings.png" 
+favicon = "images/favicon_olympics.png"
+
+[data.olympics]
+type = "csv"
+path = "data/summer.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
